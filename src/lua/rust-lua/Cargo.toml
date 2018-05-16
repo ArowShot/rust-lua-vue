@@ -1,0 +1,10 @@
+[package]
+name = "rust_lua"
+version = "0.1.0"
+authors = ["Kyle <Arow411@gmail.com>"]
+
+[dependencies]
+lua-rs = "0.0.7"
+libc = "0.2.40"
+nphysics2d = "0.6"
+stdweb = "0.4.5"
