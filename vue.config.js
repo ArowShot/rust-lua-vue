@@ -11,5 +11,7 @@ module.exports = {
                 .options({
                     path: 'dist/'
                 })
-        }
+        
+        config.output.publicPath('./')
+    }
 }
